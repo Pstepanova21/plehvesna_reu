@@ -1,0 +1,37 @@
+.loader-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 9999;
+  }
+  
+  .loader-image {
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  .loader-image.desktop {
+    display: block;
+  }
+  
+  .loader-image.mobile {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .loader-image.desktop {
+      display: none;
+    }
+  
+    .loader-image.mobile {
+      display: block;
+    }
+  }
+  

@@ -2,6 +2,7 @@
 @import "./components/about/about.css";
 @import "./components/forms/forms.css";
 @import "./components/modals/modal.css";
+@import "./components/LoaderScreen/LoaderScreen.css";
 
 @font-face {
   font-family: "Geologica";
